@@ -1358,7 +1358,7 @@ input, select, textarea {
 				border-left: 0;
 			}
 
-			/* #header nav ul li a {
+			#header nav ul li a {
 				display: block;
 				min-width: 7.5rem;
 				height: 2.75rem;
@@ -1368,15 +1368,15 @@ input, select, textarea {
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				border-bottom: 0;
-			} */
+			}
 
-				/* #header nav ul li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+				#header nav ul li a:hover {
+					background-color: rgba(255, 255, 255, 0.267);
 				}
 
 				#header nav ul li a:active {
-					background-color: rgba(255, 255, 255, 0.175);
-				} */
+					background-color: rgba(255, 255, 255, 0.507);
+				}
 
 	#header nav.use-middle:after {
 		content: '';
@@ -1490,12 +1490,12 @@ input, select, textarea {
 						border-top: 0;
 					}
 
-					/* #header nav ul li a {
+					#header nav ul li a {
 						height: 3rem;
 						line-height: 3rem;
 						min-width: 0;
 						width: 100%;
-					} */
+					}
 
 			#header nav.use-middle:after {
 				display: none;
@@ -1730,34 +1730,3 @@ input, select, textarea {
 .logo.crazy-spin {
 	animation: spin-crazy 10s linear infinite; /* Crazy spin animation */
 	}
-/* #header .logo {
-	width: 5.5rem;
-	height: 5.5rem;
-	line-height: 5.5rem;
-	border: solid 1px #ffffff;
-	border-radius: 100%;
-}
-
-	#header .logo .icon:before {
-		font-size: 2rem;
-	}	 */
-
-	/* #header nav ul li a {
-				display: block;
-				min-width: 7.5rem;
-				height: 2.75rem;
-				line-height: 2.75rem;
-				padding: 0 1.25rem 0 1.45rem;
-				text-transform: uppercase;
-				letter-spacing: 0.2rem;
-				font-size: 0.8rem;
-				border-bottom: 0;
-			} */
-
-				/* #header nav ul li a:hover {
-					background-color: rgba(255, 255, 255, 0.075);
-				}
-
-				#header nav ul li a:active {
-					background-color: rgba(255, 255, 255, 0.175);
-				} */

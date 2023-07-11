@@ -57,14 +57,13 @@ export const Navbar = () => {
 
             </div> */}
             <ul>
-              <li onClick={handleLogoClick}><Link to='/Home' className='nav-links'>Home</Link></li>
-              <li onClick={handleLogoClick}><Link to='/Blog' className='nav-links'>Blog</Link></li>
+              <li onClick={handleLogoClick}><Link to='/' className='nav-links'>Home</Link></li>
+              <li onClick={handleLogoClick}><Link to='/blog' className='nav-links'>Blog</Link></li>
               <li onClick={handleLogoClick}><Link to='/About' className='nav-links'>About</Link></li>
               <li onClick={handleLogoClick}><Link to='/Resume' className='nav-links'>Resume</Link></li>
               <li onClick={handleLogoClick}><Link to='/Events' className='nav-links'>Events</Link></li>
               <li onClick={handleLogoClick}><Link to='/Research' className='nav-links'>Research</Link></li>
               <li onClick={handleLogoClick}><Link to='/Play' className='nav-links'>Play</Link></li>
-
             </ul>
           </nav>
         </header>
