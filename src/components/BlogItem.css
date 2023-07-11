@@ -1,0 +1,9 @@
+.blog-item-image {
+    width: 200px;
+}
+
+.blog-item {
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+}
